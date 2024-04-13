@@ -5,7 +5,7 @@
   "main": "dist/wulfeWeddingServer.ts",
   "scripts": {
     "build": "npx tsc",
-    "start": "node dist/wulfeWeddingServer.js",
+    "start": "node src/wulfeWeddingServer.ts",
     "dev": "nodemon src/wulfeWeddingServer.ts"
   },
   "author": "",
