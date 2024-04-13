@@ -3,7 +3,6 @@ import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
 import {MongoClient} from 'mongodb';
 import { ParsedQs } from 'qs';
-import path = require('path');
 
 dotenv.config();
 
