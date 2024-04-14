@@ -8,7 +8,7 @@ dotenv.config();
 const API = express();
 const port = process.env.PORT;
 
-const API_URI = process.env.MONGODB_URI || '';
+const API_URI = process.env.MONGODB_URI;
 const dbClient = new MongoClient(API_URI);
 
 const database = dbClient.db('rsvp-list');
